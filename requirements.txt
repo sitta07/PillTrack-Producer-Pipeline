@@ -1,0 +1,16 @@
+# --- Core UI & Framework ---
+streamlit                  
+pandas                    
+
+# --- AI & Computer Vision ---
+ultralytics               
+torch                      
+torchvision                
+opencv-python            
+numpy                      
+Pillow                     
+
+# --- Cloud & Infrastructure ---
+boto3                      
+python-dotenv              
+PyYAML                     
