@@ -74,7 +74,7 @@ with st.sidebar:
     st.caption(f"Last Update: {datetime.now().strftime('%H:%M:%S')}")
 
 # ================= 3. MAIN DASHBOARD =================
-st.title("💊 PillTrack: MLOps Producer Hub")
+st.title("PillTrack: Producer Hub")
 tab_ops, tab_analytics, tab_deploy = st.tabs(["🛠️ Operations", "📊 Dataset Analytics & Fix", "🚀 Register Model"])
 
 # ================= TAB 1: OPERATIONS =================

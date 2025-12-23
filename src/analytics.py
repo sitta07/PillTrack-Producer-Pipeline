@@ -5,19 +5,12 @@ from sklearn.metrics.pairwise import euclidean_distances
 
 class DatasetAuditor:
     def __init__(self, packs_db):
-        """
-        รับ packs_db (Dictionary) เข้ามาเตรียมประมวลผล
-        """
         self.packs_db = packs_db
         self.df_audit = pd.DataFrame()
         self.data_points = []
         self._prepare_data()
 
     def _prepare_data(self):
-        """
-        แปลง Dict โครงสร้างซับซ้อน ให้เป็น List ของ Data Points
-        เพื่อเตรียมเข้า PCA และคำนวณ Distance
-        """
         self.data_points = []
         class_groups = {}
         
@@ -108,10 +101,6 @@ class DatasetAuditor:
         return df_pca
 
     def get_suggestions(self):
-        """
-        Logic การแนะนำ AI (แยกจาก UI)
-        Return: Tuple ของ lists (low_data, confused, high_spread)
-        """
         if self.df_audit.empty:
             return [], [], []
 
