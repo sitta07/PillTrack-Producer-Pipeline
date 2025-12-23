@@ -123,11 +123,13 @@ Start the MLOps Dashboard:
 streamlit run app.py
 ```
 
+## 👨‍💻 Author
 
-👨‍💻 Author 
-sitta07
+**Sitta Boonkaew**  
+AI Engineer Intern @ AI SmartTech  
 
+---
 
-AI Engineer Intern @ AI SmartTech
+## 📄 License
 
 © 2025 AI SmartTech. All Rights Reserved.
