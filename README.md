@@ -42,7 +42,7 @@ The system follows a **Modular "Src-Layout" Design** to ensure scalability, test
 - **`utils.py`**: Helpers.
   - Centralized configuration loading and path management.
 
-### 🎮 Controller
+### Controller
 - **`app.py`**: Streamlit Dashboard.
   - Serves as the UI/Controller, orchestrating the interaction between the user and the backend modules.
 
@@ -122,5 +122,7 @@ Start the MLOps Dashboard:
 ```bash
 streamlit run app.py
 ```
+
+
 👨‍💻 Author
 Sitta S. AI Engineer Intern @ AI SmartTech
