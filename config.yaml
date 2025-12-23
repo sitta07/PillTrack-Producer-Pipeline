@@ -4,7 +4,8 @@ paths:
   db_images: "database_images"
   db_pkl_folder: "database"
   models_folder: "models"
-
+  staging_s3: "staging_models"
+  
 artifacts:
   pack_vec: "database/pill_fingerprints.pkl" 
   pack_col: "database/colors_packs.pkl"
