@@ -124,5 +124,10 @@ streamlit run app.py
 ```
 
 
-👨‍💻 Author
-Sitta S. AI Engineer Intern @ AI SmartTech
+👨‍💻 Author 
+sitta07
+
+
+AI Engineer Intern @ AI SmartTech
+
+© 2025 AI SmartTech. All Rights Reserved.
